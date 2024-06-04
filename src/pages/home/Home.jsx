@@ -28,13 +28,13 @@ const Home = () => {
               <h1 className="text-white font-bold text-3xl mt-[5px]">Exam-Unit-5</h1>
               <p className="text-[#D9D9D9] mt-[5px]">Spanish For Beginners</p>
             </div>
-            <div className="h-[170px] w-full lg:w-[170px] p-3 rounded-lg bg-[#FFF8E1] col-span-2 lg:col-span-1">
+            <div className="h-[180px] w-full lg:w-[170px] p-3 rounded-lg bg-[#FFF8E1] col-span-2 lg:col-span-1">
               <img src={orange} alt="" className='mt-[8px]' />
               <h1 className="text-lg font-semibold mt-[3px]">HomeWork</h1>
               <p className="text-[#d9d9d9]">For Today's Lessons</p>
               <p className="mt-[35px]">35 min Ago</p>
             </div>
-            <div className="h-[170px] w-full lg:w-[170px] bg-[#E1F5FD] rounded-lg p-3 col-span-2 lg:col-span-1">
+            <div className="h-[180px] w-full lg:w-[170px] bg-[#E1F5FD] rounded-lg p-3 col-span-2 lg:col-span-1">
               <img src={blue} alt="" className='mt-[8px]' />
               <h1 className="text-lg font-semibold mt-[3px]">HomeWork</h1>
               <p className="text-[#d9d9d9]">For Today's Lessons</p>
@@ -84,7 +84,7 @@ const Home = () => {
 
           {/* Third row: Two boxes beside each other */}
           <div className="grid gap-3 mt-[25px] lg:grid-cols-4  justify-center">
-            <div className="bg-white p-3 rounded-lg h-[70px] w-[430px] lg:w-full flex justify-between col-span-4 lg:col-span-2 border-[1px]">
+            <div className="bg-white p-3 rounded-lg h-[70px] w-[340px] lg:w-full flex justify-between col-span-4 lg:col-span-2 border-[1px]">
               <div className='flex gap-[1px] items-center'>
                 <img src={writing} alt="" className='w-[45px] h-[45px]' />
                 <p className="text-black font-semibold">Grammar<br />
@@ -93,7 +93,7 @@ const Home = () => {
               </div>
               <img src={vector} alt="" className='w-[13px] h-[13px] mt-[12px]' />
             </div>
-            <div className="bg-white p-3 rounded-lg h-[70px] w-full flex justify-between items-center col-span-4 lg:col-span-2 border-[1px]">
+            <div className="bg-white p-3 rounded-lg h-[70px] w-[340px] lg:w-full flex justify-between items-center col-span-4 lg:col-span-2 border-[1px]">
               <div className='flex gap-[10px] items-center'>
                 <img src={dictionary} alt="writing" className='w-[45px] h-[45px]' />
                 <div>

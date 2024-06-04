@@ -13,7 +13,7 @@ import dictionary from '../../assets/dictionary.png'
 
 const Home = () => {
   return (
-    <div className=' bg-white w-[60%] p-5 '>
+    <div className=' bg-white w-[60%] p-5  lg:w-full '>
     <h1 className=' mt-[20px] text-3xl font-bold ml-[15px] '> Progress  DashBoard </h1>
      <section>
      <div className="p-2 mt-[25px]">

@@ -41,8 +41,8 @@ const Home = () => {
   </div>
 
   {/* <!-- Second row: Two boxes beside each other --> */}
-  <div className=" flex lg:flex-row flex-col gap-[7px] mt-[25px] p-3  justify-center">
-    <div className=" bg-white border-2 rounded-lg    border-[#d9d9d9] h-[260px] w-[350px] lg:w-full   lg:ml-0 col-span-4  p-4 lg:col-span-2">
+  <div className=" flex lg:flex-row flex-col gap-[5px] mt-[25px]  justify-center">
+    <div className=" bg-white border-2 rounded-lg    border-[#d9d9d9] h-[260px] w-[350px] lg:w-full    justify-center col-span-4  items-center p-4 lg:col-span-2">
         <div className="flex justify-between">
             <h3 className=' text-[#d9d9d9] '><span className=' text-black font-bold '>Group Info</span> <br /> 13 students in this group  </h3>
             <div>

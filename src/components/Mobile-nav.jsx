@@ -19,10 +19,10 @@ const Mobile = () => {
                     <img 
                         src={harm} 
                         alt="menu"  
-                        className='w-[44px] cursor-pointer h-[44px]' 
+                        className='w-[44px] cursor-pointer h-[40px]' 
                         onClick={handleToggle} 
                     />
-                    <img src={search} alt="search" className='w-[44px] h-[44px] cursor-pointer ' />
+                    <img src={search} alt="search" className='w-[40px] h-[40px] cursor-pointer ' />
                 </div>
                 <div className='flex gap-[12px]'>
                     <img src={flag} alt="flag" className='w-[44px] cursor-pointer h-[44px]' />

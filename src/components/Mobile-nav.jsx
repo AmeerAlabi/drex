@@ -26,7 +26,7 @@ const Mobile = () => {
                 </div>
                 <div className='flex gap-[12px]'>
                     <img src={flag} alt="flag" className='w-[44px] cursor-pointer h-[44px]' />
-                    <img src={profile} alt="profile" className='w-[44px] cursor-pointer h-[44px]' />
+                    <img src={profile} alt="profile" className='w-[40px] cursor-pointer h-[40px]' />
                 </div>
             </div>
             {toggle && <MobileSide handleToggle={handleToggle} />}

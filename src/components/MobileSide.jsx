@@ -77,7 +77,7 @@ const MobileSide = ({ handleToggle }) => {
                 </div>
                 <h1 className="font-bold text-[13px]">Jane Smith</h1>
                 <div>
-                    <img src={unfold} alt="unfold" className='w-[25px]' />
+                    <img src={unfold} alt="unfold" className='w-[20px]' />
                 </div>
             </div>
         </div>
